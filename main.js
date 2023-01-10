@@ -1,9 +1,9 @@
 if((/4399\.air\.wd/gi).test(navigator.userAgent)){
-	//ÆäËûÎ¢¶Ë
+	//å…¶ä»–å¾®ç«¯
 }else if((/4399\.zm5\.air/gi).test(navigator.userAgent)){
-	//ÔìÃÎÎ¢¶Ë²»¼ì²âÓòÃû
+	//é€ æ¢¦å¾®ç«¯ä¸æ£€æµ‹åŸŸå
 }else if((/app\.4399\.funnycore/gi).test(navigator.userAgent)){
-	//È¤ºË²»¼ì²âÓòÃû
+	//è¶£æ ¸ä¸æ£€æµ‹åŸŸå
 }else{
 	var blnOur = false;
 	var arrOurDomain = ["http://www.4399.com","http://4399.com","http://www.4399.net","http://4399.net","http://my.4399.com","http://www.3839.com","http://3839.com","http://www2.4399.net","http://4399.somp3.com",".4399.com","http://test.4399.com","http://www.4399er.com"]
@@ -18,6 +18,6 @@ if((/4399\.air\.wd/gi).test(navigator.userAgent)){
 	}
 
 	if(!blnOur){
-		alert("ÄªÁµ£º»¶Ó­·ÃÎÊ ÔÙĞøÌìÍ¥ 0.82 ÎŞÈÎºÎĞŞ¸Ä ÉÏµ¥Ô­°æ");
+		alert("è«æ‹ï¼šæ¬¢è¿è®¿é—® å†ç»­å¤©åº­ 0.82 æ— ä»»ä½•ä¿®æ”¹ ä¸Šå•åŸç‰ˆ ");
 	}
 }
